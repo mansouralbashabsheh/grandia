@@ -179,8 +179,7 @@ body {
 
 footer {
     font-family: "Gotham Rounded";
-    margin-top: 7em;
-    padding: 6em 0em 2em 0em;
+    padding:50px 0px;
     background-color: #483185;
 }
 
@@ -359,9 +358,53 @@ footer h4 {
 .item img {    margin-bottom: 20px;}
 .item2 h4{color:#D12169}
 .item3 h4{color:#249CF2}
-.clearfix .col-md-4{margin-bottom:100px;}
+.about-channels-container .clearfix .col-md-4{margin-bottom:100px;}
 .hilton-img{    max-width: 100px;}
 .item4 h4{color:#1E4A6E}
 .item5 h4{color:#FFDA00}
 .item6 h4{color:#00AF41}
 .about-channels-container{padding:80px 0px}
+.col-1 h4{font-family:Granadia;font-size:25px;color:#fff;font-weight:bold
+}
+.col-1 .contact-item span{display:block}
+.col-1 .contact-item{margin-bottom:10px;font-family:Granadia-Bold;color:#fff;font-size:12px;}
+.contact-item i{font-size:20px;color:#fff;margin:5px;}
+.input-group-prepend{display:inline-block}
+.input-group .form-control{width:60%;
+border-bottom-right-radius: 24px !important;
+    border-top-right-radius: 24px!important;
+    border-bottom-left-radius: 0px!important;
+    border-top-left-radius: 0px!important;
+}
+
+.btn-outline-secondary{
+    background-color: #D12169;
+    color: #fff;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-top-left-radius: 24px;
+    left: 18px;
+    position: relative;
+    z-index: 22;
+}
+.contact-item p{    font-size: 13px;
+    font-weight: bold;
+    margin-top: 13px;margin-bottom:16px;
+    display: inline-block;}
+.ex-map{max-width:100%}
+.copyright-container{background-color:#fff;padding:10px 0px}
+.copyright-container p{color:#4A2E87;font-size:16px;}
+
+@media screen and (max-width:768px){
+    .content span{
+            top: 20px;
+    right: -8px;
+    height:88px;
+    }
+    .channels-content span{
+        height: 80px;
+    top: 23px;
+    right: -8px;
+    }
+}
